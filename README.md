@@ -4,6 +4,7 @@ Reviewing basic sqlite3 concepts to use SQL in python.<br />
 <br />
 import sqlite3 <br/>
 conn = sqlite3.connect("my.db") <br />
+<br />
 ##1<br />
 cursor = conn.cursor()<br />
 q = 'select * from my_table'<br />
